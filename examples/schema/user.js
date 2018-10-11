@@ -47,6 +47,6 @@ let user_schama = new schema({
       }
 
       user_schama.createSchema(model);
-      user_schama.print()
+      user_schama.print();
 
 //module.exports = dynorm.model('userData', user_schama);
